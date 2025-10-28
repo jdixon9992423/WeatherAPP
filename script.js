@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const errorMessage = document.getElementById("error-message");
 
-  const API_KEY = "b4b21fdb9ef074f482a34c589e1a302f"; //env variables
+  const API_KEY = api_key; //env variables
 
   getWeather.addEventListener("click", async () => {
     console.log("clicked");
@@ -68,3 +68,4 @@ document.addEventListener("DOMContentLoaded", () => {
     errorMessage.classList.remove("hidden");
   }
 });
+
